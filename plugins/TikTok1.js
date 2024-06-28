@@ -1,5 +1,5 @@
 let handler = async (m, {conn, command}) => {
-  let url = manuelaqm[Math.floor(Math.random() * manuelaqm.length)];
+  let url = TrendTikTok[Math.floor(Math.random() * manuelaqm.length)];
     await conn.sendFile( 
      m.chat, 
      url, 
